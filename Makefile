@@ -7,12 +7,16 @@ up:
 
 start:
 	docker-compose -f docker-compose.yml start 
+
+uninstall: down rmi
+
 down:
 	docker-compose -f docker-compose.yml down 
-destroy:
-	docker-compose -f docker-compose.yml down -v 
+rmi:
+	docker rmi oddsportal-scraper_app
 stop:
 	docker-compose -f docker-compose.yml stop 
+
 restart:
 	docker-compose -f docker-compose.yml stop 
 
