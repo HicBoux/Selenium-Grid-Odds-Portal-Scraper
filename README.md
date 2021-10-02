@@ -18,9 +18,9 @@ A simple dockerized web scraper of sport odds and results for the odds monitorin
 
 <h2>How to set it :</h2>
 
-1) Set the config files as wished:
--Feel free to add or remove sports to scrape so that there is a valid URL like "https://www.oddsportal.com/matches/soccer"
--You can change the "waiting_time_multiplicator" value which modifies the time to wait a page is loaded.
+1) Set the config files as wished:</br>
+-Feel free to add or remove sports to scrape so that there is a valid URL like "https://www.oddsportal.com/matches/soccer"</br>
+-You can change the "waiting_time_multiplicator" value which modifies the time to wait a page is loaded.</br>
 ```json
 {
 	"sport":["handball","rugby","hockey","soccer","basketball","baseball","volleyball","pesapallo"],
